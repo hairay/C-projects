@@ -14,7 +14,7 @@
         "externalConsole": true, 
         "internalConsoleOptions": "neverOpen",
         "MIMode": "gdb",
-        "miDebuggerPath": "D:/LLVM/bin/gdb.exe", 
+        "miDebuggerPath": "gdb.exe", 
         "setupCommands": [ 
           {
             "description": "Enable pretty-printing for gdb",

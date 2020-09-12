@@ -3,7 +3,7 @@
     "tasks": [
       {
         "label": "Compile", 
-        "command": "clang++", 
+        "command": "clang", 
         "args": [
           "${file}",
           "-o",
@@ -12,8 +12,7 @@
           "-Wall",
           "-static-libgcc",
           "-fcolor-diagnostics",
-          "--target=x86_64-w64-mingw", 
-          "-std=c++17" 
+          "--target=x86_64-w64-mingw"
         ], 
         "type": "shell", 
         "group": {
