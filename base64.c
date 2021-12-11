@@ -706,7 +706,7 @@ static void setOptionsFromProgname( char *fn )
 int main( int argc, char ** argv )
 {
     int r = B64_OK;
-    int nArgv = 1;
+    //int nArgv = 1;
     for(;;)
     {
 #ifdef USE_CRLF
